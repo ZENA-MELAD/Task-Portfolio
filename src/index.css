@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme{
+   --color-primary:#0F103F;
+   --font-poppins:'Poppins',sans-serif;
+}
+body{
+    @apply bg-linear-to-r from-[#5e8edb] via-[#9296e0] to-[#8071c1] font-poppins text-white
+}
