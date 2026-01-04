@@ -4,7 +4,7 @@ import { Sling as Hamburger } from "hamburger-react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="py-1 md:p-6 lg:py-6">
+    <nav className="py-1 md:p-6 lg:py-4">
       <div className="flex items-center justify-around md:hidden">
         <div className="w-6">
           <img src={Logo} alt="Company logo" />
@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
       <ul
         className={`flex flex-col justify-center items-center gap-y-2 capitalize font-light
-        md:flex-row md:justify-around md:gap-y-0 transition-all duration-700 ease-in-out text-sm
+        md:flex-row md:justify-center md:gap-x-10 md:gap-y-0 transition-all duration-700 ease-in-out text-sm
          overflow-hidden md:max-h-96 md:opacity-100 md:pointer-events-auto md:text-base
          ${isOpen?" max-h-96 opacity-100 pointer-events-auto":"max-h-0 opacity-0 pointer-events-none"} `}
       >
