@@ -26,7 +26,7 @@ const Navbar = () => {
          ${isOpen?" max-h-96 opacity-100 pointer-events-auto":"max-h-0 opacity-0 pointer-events-none"} `}
       >
         <li>
-          <a href="#" onClick={()=>setIsOpen(false)}>home</a>
+          <a href="#home" onClick={()=>setIsOpen(false)}>home</a>
         </li>
         <li>
           <a href="#" onClick={()=>setIsOpen(false)}>about</a>
