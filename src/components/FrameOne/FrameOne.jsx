@@ -7,7 +7,7 @@ import About from "../../Sections/About/About";
 import Img2 from "../../assets/images/Group 1166.png";
 const FrameOne = () => {
   return (
-    <div className="bg-primary relative mt-10 w-11/12 sm:w-full flex flex-col py-6">
+    <div className="bg-primary relative mt-10  flex flex-col py-6 w-fit">
       <div className="w-16 absolute z-20 -left-6 -top-8 md:w-32 md:-top-14 md:-left-10 lg:-top-16 lg:-left-16">
         <img src={Img} alt="this is a one image" className="w-full" />
       </div>

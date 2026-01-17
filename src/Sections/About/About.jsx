@@ -10,7 +10,7 @@ const About = () => {
         <div className="w-3/5">
           <img src={Img1} className="" />
         </div>
-        <div className=" absolute w-2/3 h-full bottom-2  rounded-full bg-[#161e77] blur-3xl opacity-100"></div>
+        <div className=" absolute w-3/4 h-3/4  rounded-full bg-[#242B80] blur-3xl"></div>
         <div className="bg-gradient-to-b  from-[#b556c8] from-10%  to-[#1c3f79] to-90% rounded-full absolute bottom-9 md:bottom-12 flex justify-end items-center w-56 h-56 md:w-72 md:h-72">
           <div className=" w-1/2  text-balance flex flex-col gap-y-2">
             <h1 className="text-xs md:text-sm">About me </h1>
