@@ -22,9 +22,9 @@ const Work = () => {
         }}
       ></div>
       <div className="absolute w-80 h-72 bg-blue-500/20 blur-3xl rounded-full pointer-events-none"></div>
-      <div className="absolute flex flex-col justify-center items-center gap-y-3">
-      <div><h2 className="text-lg">My recent work</h2></div>
-      <div className="w-full relative  flex justify-center items-center gap-24 sm:gap-36">
+      <div className="absolute flex flex-col justify-center items-center gap-y-4">
+      <div><h2 className="text-lg md:text-xl">My recent work</h2></div>
+      <div className="w-full relative  flex justify-center items-center gap-20 sm:gap-36">
         <div className="w-1/3">
           <Card src={Img2} title="mockups" color="bg-purple-200/50" size=" h-12 sm:h-28"/>
         </div>

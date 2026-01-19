@@ -1,14 +1,17 @@
 @import "tailwindcss";
-@theme{
-   --color-primary:#0F103F;
-   --font-poppins:'Poppins',sans-serif;
-   --text-xxs:9px;
-   }
-body{
-    @apply  bg-gradient-to-r from-[#5e8edb] via-[#9296e0] to-[#8071c1] font-poppins text-white
+@theme {
+  --color-primary: #0f103f;
+  --font-poppins: "Poppins", sans-serif;
+  --text-xxs: 9px;
 }
-html{
-    scroll-behavior: smooth;
+body {
+  @apply bg-gradient-to-r from-[#5e8edb] via-[#9296e0] to-[#8071c1] font-poppins text-white;
 }
-
-
+html {
+  scroll-behavior: smooth;
+}
+@layer components {
+  .input-base {
+    @apply w-full bg-gray-400/40 rounded-md p-2 placeholder-white placeholder:text-xs placeholder:font-extralight focus:outline-none text-xs;
+  }
+}
