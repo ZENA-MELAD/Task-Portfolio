@@ -6,7 +6,7 @@ import Img4 from "../../assets/images/Comp 38 2.png"
 import Card from "../../components/Card/Card";
 const Work = () => {
   return (
-    <div className="relative w-full flex items-center justify-center">
+    <div id="work" className="relative w-full flex items-center justify-center">
       <div className="relative">
         <img src={Img1} alt="Work Display" className="w-full h-auto" />
       </div>

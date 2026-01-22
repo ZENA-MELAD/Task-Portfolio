@@ -15,7 +15,7 @@ const ContactInfo = () => {
           <div className="w-8 h-8 rounded-full bg-[#1C1C65] flex justify-center items-center">
             <PiPhoneFill size={22} />
           </div>
-          <p className="mt-1 text-xs">
+          <p className="mt-1 text-xs lg:text-xxs xl:text-xs">
             <span>1-514-781-3212</span>
           </p>
         </div>
@@ -23,7 +23,7 @@ const ContactInfo = () => {
           <div className="w-8 h-8 rounded-full bg-[#1C1C65] flex justify-center items-center">
             <MdEmail size={20} />
           </div>
-          <p className="mt-1 text-xs">
+          <p className="mt-1 text-xs lg:text-xxs xl:text-xs">
             <a href="mailto:Sou12@gmail.com" className="underline">
               Sou12@gmail.com
             </a>

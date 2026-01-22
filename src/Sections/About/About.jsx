@@ -5,7 +5,7 @@ import Img2 from "../../assets/images/Frame 3 (1).png";
 const About = () => {
   const [isOpen,setIsOpen]=useState(false)
   return (
-    <div className="w-full flex flex-col justify-center items-center gap-y-5">
+    <div id="about" className="w-full flex flex-col justify-center items-center gap-y-5">
       <div className="w-full  relative bottom-5 mt-28 flex justify-center items-center">
         <div className="w-3/5">
           <img src={Img1} className="" />
