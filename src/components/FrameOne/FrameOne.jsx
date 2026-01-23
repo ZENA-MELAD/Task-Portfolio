@@ -5,6 +5,7 @@ import SideMenu from "../UI/SideMenu/SideMenu";
 import Home from "../../Sections/Home/Home";
 import About from "../../Sections/About/About";
 import Img2 from "../../assets/images/Group 1166.png";
+import Img3 from "../../assets/images/Group 1190.png"
 const FrameOne = () => {
   return (
     <div className="bg-primary relative mt-10  flex flex-col py-6 w-fit">
@@ -19,6 +20,9 @@ const FrameOne = () => {
       <About />
       <div className=" absolute w-36 -left-16 md:-left-20 -bottom-10 md:w-40  lg:w-48 xl:-left-24 xl:-bottom-20 xl:w-52">
         <img src={Img2} />
+      </div>
+      <div className=" hidden lg:flex absolute z-20 w-2/3 top-16 lg:-right-32 xl:-right-36">
+        <img src={Img3}/>
       </div>
     </div>
   );
